@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Tehran',  // <-- تغییر به ایران
 
     /*
     |--------------------------------------------------------------------------
@@ -78,11 +78,11 @@ return [
     |
     */
 
-    'locale' => env('APP_LOCALE', 'en'),
+    'locale' => 'fa',  // <-- این خط رو درست کن
 
-    'fallback_locale' => env('APP_FALLBACK_LOCALE', 'en'),
+    'fallback_locale' => 'fa',  // <-- این رو هم به fa تغییر بده
 
-    'faker_locale' => env('APP_FAKER_LOCALE', 'en_US'),
+    'faker_locale' => 'fa_IR',  // <-- این رو هم به fa_IR تغییر بده
 
     /*
     |--------------------------------------------------------------------------

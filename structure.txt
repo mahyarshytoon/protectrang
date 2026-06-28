@@ -1,0 +1,2880 @@
+Folder PATH listing
+Volume serial number is E64D-A2DA
+C:.
++---.github
+|   \---workflows
++---app
+|   +---Filament
+|   |   \---Resources
+|   |       +---ProjectResource
+|   |       |   \---Pages
+|   |       \---ServiceResource
+|   |           \---Pages
+|   +---Http
+|   |   \---Controllers
+|   +---Models
+|   \---Providers
+|       \---Filament
++---bootstrap
+|   \---cache
++---config
++---database
+|   +---factories
+|   +---migrations
+|   \---seeders
++---public
+|   +---css
+|   |   \---filament
+|   |       +---filament
+|   |       +---forms
+|   |       \---support
+|   +---js
+|   |   \---filament
+|   |       +---filament
+|   |       +---forms
+|   |       |   \---components
+|   |       +---notifications
+|   |       +---support
+|   |       +---tables
+|   |       |   \---components
+|   |       \---widgets
+|   |           \---components
+|   |               \---stats-overview
+|   |                   \---stat
+|   \---storage
+|       \---projects
++---resources
+|   +---css
+|   +---js
+|   \---views
+|       +---home
+|       +---layouts
+|       \---partials
++---routes
++---storage
+|   +---app
+|   |   +---private
+|   |   |   \---livewire-tmp
+|   |   \---public
+|   |       \---projects
+|   +---framework
+|   |   +---cache
+|   |   |   \---data
+|   |   +---sessions
+|   |   +---testing
+|   |   \---views
+|   \---logs
++---tests
+|   +---Feature
+|   \---Unit
+\---vendor
+    +---anourvalar
+    |   \---eloquent-serialize
+    |       +---.github
+    |       |   \---workflows
+    |       \---src
+    |           +---Facades
+    |           \---Grammars
+    +---bin
+    +---blade-ui-kit
+    |   +---blade-heroicons
+    |   |   +---config
+    |   |   +---resources
+    |   |   |   \---svg
+    |   |   \---src
+    |   \---blade-icons
+    |       +---bin
+    |       +---config
+    |       \---src
+    |           +---Components
+    |           +---Concerns
+    |           +---Console
+    |           +---Exceptions
+    |           \---Generation
+    +---brick
+    |   \---math
+    |       \---src
+    |           +---Exception
+    |           \---Internal
+    |               \---Calculator
+    +---carbonphp
+    |   \---carbon-doctrine-types
+    |       \---src
+    |           \---Carbon
+    |               \---Doctrine
+    +---composer
+    +---danharrin
+    |   +---date-format-converter
+    |   |   +---.github
+    |   |   |   \---ISSUE_TEMPLATE
+    |   |   \---src
+    |   \---livewire-rate-limiting
+    |       \---src
+    |           \---Exceptions
+    +---dflydev
+    |   \---dot-access-data
+    |       \---src
+    |           \---Exception
+    +---doctrine
+    |   +---dbal
+    |   |   \---src
+    |   |       +---ArrayParameters
+    |   |       |   \---Exception
+    |   |       +---Cache
+    |   |       |   \---Exception
+    |   |       +---Connection
+    |   |       +---Connections
+    |   |       +---Driver
+    |   |       |   +---AbstractOracleDriver
+    |   |       |   +---AbstractSQLiteDriver
+    |   |       |   |   \---Middleware
+    |   |       |   +---AbstractSQLServerDriver
+    |   |       |   |   \---Exception
+    |   |       |   +---API
+    |   |       |   |   +---IBMDB2
+    |   |       |   |   +---MySQL
+    |   |       |   |   +---OCI
+    |   |       |   |   +---PostgreSQL
+    |   |       |   |   +---SQLite
+    |   |       |   |   \---SQLSrv
+    |   |       |   +---Exception
+    |   |       |   +---IBMDB2
+    |   |       |   |   \---Exception
+    |   |       |   +---Middleware
+    |   |       |   +---Mysqli
+    |   |       |   |   +---Exception
+    |   |       |   |   \---Initializer
+    |   |       |   +---OCI8
+    |   |       |   |   +---Exception
+    |   |       |   |   \---Middleware
+    |   |       |   +---PDO
+    |   |       |   |   +---Exception
+    |   |       |   |   +---MySQL
+    |   |       |   |   +---OCI
+    |   |       |   |   +---PgSQL
+    |   |       |   |   +---SQLite
+    |   |       |   |   \---SQLSrv
+    |   |       |   +---PgSQL
+    |   |       |   |   \---Exception
+    |   |       |   +---SQLite3
+    |   |       |   \---SQLSrv
+    |   |       |       \---Exception
+    |   |       +---Exception
+    |   |       |   \---InvalidColumnType
+    |   |       +---Logging
+    |   |       +---Platforms
+    |   |       |   +---Db2
+    |   |       |   +---Exception
+    |   |       |   +---Keywords
+    |   |       |   +---MySQL
+    |   |       |   |   +---CharsetMetadataProvider
+    |   |       |   |   \---CollationMetadataProvider
+    |   |       |   +---Oracle
+    |   |       |   +---PostgreSQL
+    |   |       |   +---SQLite
+    |   |       |   |   \---SQLiteMetadataProvider
+    |   |       |   \---SQLServer
+    |   |       |       \---SQL
+    |   |       |           \---Builder
+    |   |       +---Portability
+    |   |       +---Query
+    |   |       |   +---Exception
+    |   |       |   +---Expression
+    |   |       |   \---ForUpdate
+    |   |       +---Schema
+    |   |       |   +---Collections
+    |   |       |   |   \---Exception
+    |   |       |   +---DefaultExpression
+    |   |       |   +---Exception
+    |   |       |   +---ForeignKeyConstraint
+    |   |       |   +---Index
+    |   |       |   +---Introspection
+    |   |       |   |   \---MetadataProcessor
+    |   |       |   +---Metadata
+    |   |       |   \---Name
+    |   |       |       \---Parser
+    |   |       |           \---Exception
+    |   |       +---SQL
+    |   |       |   +---Builder
+    |   |       |   \---Parser
+    |   |       |       \---Exception
+    |   |       +---Tools
+    |   |       |   \---Console
+    |   |       |       +---Command
+    |   |       |       \---ConnectionProvider
+    |   |       \---Types
+    |   |           \---Exception
+    |   +---deprecations
+    |   |   \---src
+    |   |       \---PHPUnit
+    |   +---inflector
+    |   |   +---docs
+    |   |   |   \---en
+    |   |   \---src
+    |   |       \---Rules
+    |   |           +---English
+    |   |           +---Esperanto
+    |   |           +---French
+    |   |           +---Italian
+    |   |           +---NorwegianBokmal
+    |   |           +---Portuguese
+    |   |           +---Spanish
+    |   |           \---Turkish
+    |   \---lexer
+    |       \---src
+    +---dragonmantank
+    |   \---cron-expression
+    |       \---src
+    |           \---Cron
+    +---egulias
+    |   \---email-validator
+    |       \---src
+    |           +---Parser
+    |           |   \---CommentStrategy
+    |           +---Result
+    |           |   \---Reason
+    |           +---Validation
+    |           |   +---Exception
+    |           |   \---Extra
+    |           \---Warning
+    +---fakerphp
+    |   \---faker
+    |       \---src
+    |           \---Faker
+    |               +---Calculator
+    |               +---Container
+    |               +---Core
+    |               +---Extension
+    |               +---Guesser
+    |               +---ORM
+    |               |   +---CakePHP
+    |               |   +---Doctrine
+    |               |   +---Mandango
+    |               |   +---Propel
+    |               |   +---Propel2
+    |               |   \---Spot
+    |               \---Provider
+    |                   +---ar_EG
+    |                   +---ar_JO
+    |                   +---ar_SA
+    |                   +---at_AT
+    |                   +---bg_BG
+    |                   +---bn_BD
+    |                   +---cs_CZ
+    |                   +---da_DK
+    |                   +---de_AT
+    |                   +---de_CH
+    |                   +---de_DE
+    |                   +---el_CY
+    |                   +---el_GR
+    |                   +---en_AU
+    |                   +---en_CA
+    |                   +---en_GB
+    |                   +---en_HK
+    |                   +---en_IN
+    |                   +---en_NG
+    |                   +---en_NZ
+    |                   +---en_PH
+    |                   +---en_SG
+    |                   +---en_UG
+    |                   +---en_US
+    |                   +---en_ZA
+    |                   +---es_AR
+    |                   +---es_ES
+    |                   +---es_PE
+    |                   +---es_VE
+    |                   +---et_EE
+    |                   +---fa_IR
+    |                   +---fi_FI
+    |                   +---fr_BE
+    |                   +---fr_CA
+    |                   +---fr_CH
+    |                   +---fr_FR
+    |                   +---he_IL
+    |                   +---hr_HR
+    |                   +---hu_HU
+    |                   +---hy_AM
+    |                   +---id_ID
+    |                   +---is_IS
+    |                   +---it_CH
+    |                   +---it_IT
+    |                   +---ja_JP
+    |                   +---ka_GE
+    |                   +---kk_KZ
+    |                   +---ko_KR
+    |                   +---lt_LT
+    |                   +---lv_LV
+    |                   +---me_ME
+    |                   +---mn_MN
+    |                   +---ms_MY
+    |                   +---nb_NO
+    |                   +---ne_NP
+    |                   +---nl_BE
+    |                   +---nl_NL
+    |                   +---pl_PL
+    |                   +---pt_BR
+    |                   +---pt_PT
+    |                   +---ro_MD
+    |                   +---ro_RO
+    |                   +---ru_RU
+    |                   +---sk_SK
+    |                   +---sl_SI
+    |                   +---sr_Cyrl_RS
+    |                   +---sr_Latn_RS
+    |                   +---sr_RS
+    |                   +---sv_SE
+    |                   +---th_TH
+    |                   +---tr_TR
+    |                   +---uk_UA
+    |                   +---vi_VN
+    |                   +---zh_CN
+    |                   \---zh_TW
+    +---filament
+    |   +---actions
+    |   |   +---database
+    |   |   |   \---migrations
+    |   |   +---docs
+    |   |   |   \---07-prebuilt-actions
+    |   |   +---resources
+    |   |   |   +---lang
+    |   |   |   |   +---ar
+    |   |   |   |   +---az
+    |   |   |   |   +---bg
+    |   |   |   |   +---bn
+    |   |   |   |   +---bs
+    |   |   |   |   +---ca
+    |   |   |   |   +---ckb
+    |   |   |   |   +---cs
+    |   |   |   |   +---da
+    |   |   |   |   +---de
+    |   |   |   |   +---el
+    |   |   |   |   +---en
+    |   |   |   |   +---es
+    |   |   |   |   +---fa
+    |   |   |   |   +---fi
+    |   |   |   |   +---fr
+    |   |   |   |   +---he
+    |   |   |   |   +---hi
+    |   |   |   |   +---hr
+    |   |   |   |   +---hu
+    |   |   |   |   +---hy
+    |   |   |   |   +---id
+    |   |   |   |   +---it
+    |   |   |   |   +---ja
+    |   |   |   |   +---ka
+    |   |   |   |   +---kh
+    |   |   |   |   +---km
+    |   |   |   |   +---ko
+    |   |   |   |   +---ku
+    |   |   |   |   +---lt
+    |   |   |   |   +---lv
+    |   |   |   |   +---mn
+    |   |   |   |   +---ms
+    |   |   |   |   +---my
+    |   |   |   |   +---ne
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---nl
+    |   |   |   |   +---no
+    |   |   |   |   +---np
+    |   |   |   |   +---pl
+    |   |   |   |   +---pt_BR
+    |   |   |   |   +---pt_PT
+    |   |   |   |   +---ro
+    |   |   |   |   +---ru
+    |   |   |   |   +---sk
+    |   |   |   |   +---sl
+    |   |   |   |   +---sq
+    |   |   |   |   +---sv
+    |   |   |   |   +---sw
+    |   |   |   |   +---th
+    |   |   |   |   +---tr
+    |   |   |   |   +---uk
+    |   |   |   |   +---uz
+    |   |   |   |   +---vi
+    |   |   |   |   +---zh_CN
+    |   |   |   |   \---zh_TW
+    |   |   |   \---views
+    |   |   |       \---components
+    |   |   +---routes
+    |   |   +---src
+    |   |   |   +---Commands
+    |   |   |   |   +---Aliases
+    |   |   |   |   \---Concerns
+    |   |   |   +---Concerns
+    |   |   |   +---Contracts
+    |   |   |   +---Events
+    |   |   |   +---Exceptions
+    |   |   |   +---Exports
+    |   |   |   |   +---Concerns
+    |   |   |   |   +---Downloaders
+    |   |   |   |   |   \---Contracts
+    |   |   |   |   +---Enums
+    |   |   |   |   |   \---Contracts
+    |   |   |   |   +---Http
+    |   |   |   |   |   \---Controllers
+    |   |   |   |   +---Jobs
+    |   |   |   |   \---Models
+    |   |   |   +---Imports
+    |   |   |   |   +---Events
+    |   |   |   |   +---Exceptions
+    |   |   |   |   +---Http
+    |   |   |   |   |   \---Controllers
+    |   |   |   |   +---Jobs
+    |   |   |   |   \---Models
+    |   |   |   +---Modal
+    |   |   |   |   \---Actions
+    |   |   |   \---Testing
+    |   |   \---stubs
+    |   +---filament
+    |   |   +---dist
+    |   |   +---docs
+    |   |   |   \---03-resources
+    |   |   +---resources
+    |   |   |   +---boost
+    |   |   |   |   \---guidelines
+    |   |   |   +---css
+    |   |   |   +---js
+    |   |   |   +---lang
+    |   |   |   |   +---ar
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---az
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---bg
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---bn
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   \---auth
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---bs
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   \---auth
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---ca
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---ckb
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---cs
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---da
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---de
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---el
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   \---auth
+    |   |   |   |   |   |       +---email-verification
+    |   |   |   |   |   |       \---password-reset
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---en
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---es
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---fa
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---fi
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---fr
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---he
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---hi
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   \---auth
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---hr
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---hu
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---hy
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---id
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---it
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---ja
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---ka
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---km
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---ko
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---ku
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---lt
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---lv
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---mn
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---ms
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---my
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---nl
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---no
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---np
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---pl
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---pt_BR
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---pt_PT
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---ro
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---ru
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---sk
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---sl
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---sq
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---sv
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---sw
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   \---auth
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---th
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---tr
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---uk
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---uz
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---vi
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   +---zh_CN
+    |   |   |   |   |   +---pages
+    |   |   |   |   |   |   +---auth
+    |   |   |   |   |   |   |   +---email-verification
+    |   |   |   |   |   |   |   \---password-reset
+    |   |   |   |   |   |   \---tenancy
+    |   |   |   |   |   +---resources
+    |   |   |   |   |   |   \---pages
+    |   |   |   |   |   \---widgets
+    |   |   |   |   \---zh_TW
+    |   |   |   |       +---pages
+    |   |   |   |       |   \---auth
+    |   |   |   |       +---resources
+    |   |   |   |       |   \---pages
+    |   |   |   |       \---widgets
+    |   |   |   \---views
+    |   |   |       +---components
+    |   |   |       |   +---avatar
+    |   |   |       |   +---form
+    |   |   |       |   +---global-search
+    |   |   |       |   +---header
+    |   |   |       |   +---layout
+    |   |   |       |   +---page
+    |   |   |       |   |   \---sub-navigation
+    |   |   |       |   +---resources
+    |   |   |       |   +---sidebar
+    |   |   |       |   +---theme-switcher
+    |   |   |       |   \---topbar
+    |   |   |       +---pages
+    |   |   |       |   +---auth
+    |   |   |       |   |   +---email-verification
+    |   |   |       |   |   \---password-reset
+    |   |   |       |   \---tenancy
+    |   |   |       +---resources
+    |   |   |       |   \---pages
+    |   |   |       \---widgets
+    |   |   +---routes
+    |   |   +---src
+    |   |   |   +---AvatarProviders
+    |   |   |   |   \---Contracts
+    |   |   |   +---Billing
+    |   |   |   |   \---Providers
+    |   |   |   |       \---Contracts
+    |   |   |   +---Clusters
+    |   |   |   +---Commands
+    |   |   |   |   \---Aliases
+    |   |   |   +---Contracts
+    |   |   |   +---Enums
+    |   |   |   +---Events
+    |   |   |   |   \---Auth
+    |   |   |   +---Exceptions
+    |   |   |   +---Facades
+    |   |   |   +---FontProviders
+    |   |   |   |   \---Contracts
+    |   |   |   +---GlobalSearch
+    |   |   |   |   +---Actions
+    |   |   |   |   \---Contracts
+    |   |   |   +---Http
+    |   |   |   |   +---Controllers
+    |   |   |   |   |   \---Auth
+    |   |   |   |   +---Livewire
+    |   |   |   |   |   \---Auth
+    |   |   |   |   +---Middleware
+    |   |   |   |   \---Responses
+    |   |   |   |       \---Auth
+    |   |   |   |           \---Contracts
+    |   |   |   +---Livewire
+    |   |   |   +---Models
+    |   |   |   |   \---Contracts
+    |   |   |   +---Navigation
+    |   |   |   +---Notifications
+    |   |   |   |   \---Auth
+    |   |   |   +---Pages
+    |   |   |   |   +---Actions
+    |   |   |   |   |   \---Modal
+    |   |   |   |   |       \---Actions
+    |   |   |   |   +---Auth
+    |   |   |   |   |   +---EmailVerification
+    |   |   |   |   |   \---PasswordReset
+    |   |   |   |   +---Concerns
+    |   |   |   |   +---Dashboard
+    |   |   |   |   |   +---Actions
+    |   |   |   |   |   \---Concerns
+    |   |   |   |   \---Tenancy
+    |   |   |   +---Panel
+    |   |   |   |   \---Concerns
+    |   |   |   +---Resources
+    |   |   |   |   +---Components
+    |   |   |   |   +---Concerns
+    |   |   |   |   +---Pages
+    |   |   |   |   |   +---Concerns
+    |   |   |   |   |   +---CreateRecord
+    |   |   |   |   |   |   \---Concerns
+    |   |   |   |   |   +---EditRecord
+    |   |   |   |   |   |   \---Concerns
+    |   |   |   |   |   \---ListRecords
+    |   |   |   |   \---RelationManagers
+    |   |   |   |       \---Concerns
+    |   |   |   +---View
+    |   |   |   |   \---LegacyComponents
+    |   |   |   \---Widgets
+    |   |   |       \---Concerns
+    |   |   \---stubs
+    |   +---forms
+    |   |   +---dist
+    |   |   |   \---components
+    |   |   +---docs
+    |   |   |   +---03-fields
+    |   |   |   \---04-layout
+    |   |   +---resources
+    |   |   |   +---css
+    |   |   |   |   \---components
+    |   |   |   +---js
+    |   |   |   |   \---components
+    |   |   |   |       \---markdown-editor
+    |   |   |   +---lang
+    |   |   |   |   +---ar
+    |   |   |   |   +---az
+    |   |   |   |   +---bg
+    |   |   |   |   +---bn
+    |   |   |   |   +---bs
+    |   |   |   |   +---ca
+    |   |   |   |   +---ckb
+    |   |   |   |   +---cs
+    |   |   |   |   +---cy
+    |   |   |   |   +---da
+    |   |   |   |   +---de
+    |   |   |   |   +---el
+    |   |   |   |   +---en
+    |   |   |   |   +---es
+    |   |   |   |   +---eu
+    |   |   |   |   +---fa
+    |   |   |   |   +---fi
+    |   |   |   |   +---fr
+    |   |   |   |   +---he
+    |   |   |   |   +---hi
+    |   |   |   |   +---hr
+    |   |   |   |   +---hu
+    |   |   |   |   +---hy
+    |   |   |   |   +---id
+    |   |   |   |   +---it
+    |   |   |   |   +---ja
+    |   |   |   |   +---ka
+    |   |   |   |   +---km
+    |   |   |   |   +---ko
+    |   |   |   |   +---ku
+    |   |   |   |   +---lt
+    |   |   |   |   +---lv
+    |   |   |   |   +---mn
+    |   |   |   |   +---ms
+    |   |   |   |   +---my
+    |   |   |   |   +---nl
+    |   |   |   |   +---no
+    |   |   |   |   +---np
+    |   |   |   |   +---pl
+    |   |   |   |   +---pt_BR
+    |   |   |   |   +---pt_PT
+    |   |   |   |   +---ro
+    |   |   |   |   +---ru
+    |   |   |   |   +---sk
+    |   |   |   |   +---sq
+    |   |   |   |   +---sv
+    |   |   |   |   +---sw
+    |   |   |   |   +---th
+    |   |   |   |   +---tr
+    |   |   |   |   +---uk
+    |   |   |   |   +---uz
+    |   |   |   |   +---vi
+    |   |   |   |   +---zh_CN
+    |   |   |   |   \---zh_TW
+    |   |   |   \---views
+    |   |   |       \---components
+    |   |   |           +---actions
+    |   |   |           +---builder
+    |   |   |           +---field-wrapper
+    |   |   |           +---repeater
+    |   |   |           +---rich-editor
+    |   |   |           |   \---toolbar
+    |   |   |           +---tabs
+    |   |   |           +---toggle-buttons
+    |   |   |           \---wizard
+    |   |   +---src
+    |   |   |   +---Commands
+    |   |   |   |   +---Aliases
+    |   |   |   |   \---Concerns
+    |   |   |   +---Components
+    |   |   |   |   +---Actions
+    |   |   |   |   |   \---Concerns
+    |   |   |   |   +---Builder
+    |   |   |   |   +---Concerns
+    |   |   |   |   +---Contracts
+    |   |   |   |   +---MorphToSelect
+    |   |   |   |   +---Tabs
+    |   |   |   |   +---TextInput
+    |   |   |   |   |   \---Actions
+    |   |   |   |   \---Wizard
+    |   |   |   +---Concerns
+    |   |   |   +---Contracts
+    |   |   |   \---Testing
+    |   |   \---stubs
+    |   +---infolists
+    |   |   +---docs
+    |   |   |   +---03-entries
+    |   |   |   \---04-layout
+    |   |   +---resources
+    |   |   |   +---lang
+    |   |   |   |   +---ar
+    |   |   |   |   +---az
+    |   |   |   |   +---bg
+    |   |   |   |   +---bs
+    |   |   |   |   +---ca
+    |   |   |   |   +---ckb
+    |   |   |   |   +---cs
+    |   |   |   |   +---da
+    |   |   |   |   +---de
+    |   |   |   |   +---en
+    |   |   |   |   +---es
+    |   |   |   |   +---fa
+    |   |   |   |   +---fi
+    |   |   |   |   +---fr
+    |   |   |   |   +---hr
+    |   |   |   |   +---hu
+    |   |   |   |   +---hy
+    |   |   |   |   +---id
+    |   |   |   |   +---it
+    |   |   |   |   +---ja
+    |   |   |   |   +---ka
+    |   |   |   |   +---km
+    |   |   |   |   +---ko
+    |   |   |   |   +---ku
+    |   |   |   |   +---lt
+    |   |   |   |   +---my
+    |   |   |   |   +---nl
+    |   |   |   |   +---no
+    |   |   |   |   +---np
+    |   |   |   |   +---pl
+    |   |   |   |   +---pt_BR
+    |   |   |   |   +---pt_PT
+    |   |   |   |   +---ru
+    |   |   |   |   +---sk
+    |   |   |   |   +---sv
+    |   |   |   |   +---th
+    |   |   |   |   +---tr
+    |   |   |   |   +---uk
+    |   |   |   |   +---uz
+    |   |   |   |   +---vi
+    |   |   |   |   +---zh_CN
+    |   |   |   |   \---zh_TW
+    |   |   |   \---views
+    |   |   |       \---components
+    |   |   |           +---actions
+    |   |   |           +---entries
+    |   |   |           +---entry-wrapper
+    |   |   |           \---tabs
+    |   |   +---src
+    |   |   |   +---Commands
+    |   |   |   |   \---Aliases
+    |   |   |   +---Components
+    |   |   |   |   +---Actions
+    |   |   |   |   |   \---Concerns
+    |   |   |   |   +---Concerns
+    |   |   |   |   +---Contracts
+    |   |   |   |   +---IconEntry
+    |   |   |   |   +---Tabs
+    |   |   |   |   \---TextEntry
+    |   |   |   +---Concerns
+    |   |   |   +---Contracts
+    |   |   |   \---Testing
+    |   |   \---stubs
+    |   +---notifications
+    |   |   +---dist
+    |   |   +---docs
+    |   |   +---resources
+    |   |   |   +---js
+    |   |   |   |   \---components
+    |   |   |   +---lang
+    |   |   |   |   +---ar
+    |   |   |   |   +---az
+    |   |   |   |   +---bg
+    |   |   |   |   +---bn
+    |   |   |   |   +---bs
+    |   |   |   |   +---ca
+    |   |   |   |   +---ckb
+    |   |   |   |   +---cs
+    |   |   |   |   +---cy
+    |   |   |   |   +---da
+    |   |   |   |   +---de
+    |   |   |   |   +---el
+    |   |   |   |   +---en
+    |   |   |   |   +---es
+    |   |   |   |   +---eu
+    |   |   |   |   +---fa
+    |   |   |   |   +---fi
+    |   |   |   |   +---fr
+    |   |   |   |   +---he
+    |   |   |   |   +---hr
+    |   |   |   |   +---hu
+    |   |   |   |   +---hy
+    |   |   |   |   +---id
+    |   |   |   |   +---it
+    |   |   |   |   +---ja
+    |   |   |   |   +---ka
+    |   |   |   |   +---km
+    |   |   |   |   +---ko
+    |   |   |   |   +---ku
+    |   |   |   |   +---lt
+    |   |   |   |   +---lv
+    |   |   |   |   +---ms
+    |   |   |   |   +---nl
+    |   |   |   |   +---no
+    |   |   |   |   +---np
+    |   |   |   |   +---pl
+    |   |   |   |   +---pt_BR
+    |   |   |   |   +---pt_PT
+    |   |   |   |   +---ro
+    |   |   |   |   +---ru
+    |   |   |   |   +---sk
+    |   |   |   |   +---sl
+    |   |   |   |   +---sq
+    |   |   |   |   +---sv
+    |   |   |   |   +---sw
+    |   |   |   |   +---th
+    |   |   |   |   +---tr
+    |   |   |   |   +---uk
+    |   |   |   |   +---uz
+    |   |   |   |   +---vi
+    |   |   |   |   +---zh_CN
+    |   |   |   |   \---zh_TW
+    |   |   |   \---views
+    |   |   |       \---components
+    |   |   |           \---database
+    |   |   |               \---modal
+    |   |   \---src
+    |   |       +---Actions
+    |   |       +---Concerns
+    |   |       +---Events
+    |   |       +---Livewire
+    |   |       \---Testing
+    |   +---support
+    |   |   +---config
+    |   |   +---dist
+    |   |   +---docs
+    |   |   |   +---08-plugins
+    |   |   |   \---09-blade-components
+    |   |   +---resources
+    |   |   |   +---css
+    |   |   |   |   \---components
+    |   |   |   +---js
+    |   |   |   +---lang
+    |   |   |   |   +---ar
+    |   |   |   |   |   \---components
+    |   |   |   |   +---az
+    |   |   |   |   |   \---components
+    |   |   |   |   +---bg
+    |   |   |   |   |   \---components
+    |   |   |   |   +---bn
+    |   |   |   |   |   \---components
+    |   |   |   |   +---bs
+    |   |   |   |   |   \---components
+    |   |   |   |   +---ca
+    |   |   |   |   |   \---components
+    |   |   |   |   +---ckb
+    |   |   |   |   |   \---components
+    |   |   |   |   +---cs
+    |   |   |   |   |   \---components
+    |   |   |   |   +---cy
+    |   |   |   |   |   \---components
+    |   |   |   |   +---da
+    |   |   |   |   |   \---components
+    |   |   |   |   +---de
+    |   |   |   |   |   \---components
+    |   |   |   |   +---el
+    |   |   |   |   |   \---components
+    |   |   |   |   +---en
+    |   |   |   |   |   \---components
+    |   |   |   |   +---es
+    |   |   |   |   |   \---components
+    |   |   |   |   +---eu
+    |   |   |   |   |   \---components
+    |   |   |   |   +---fa
+    |   |   |   |   |   \---components
+    |   |   |   |   +---fi
+    |   |   |   |   |   \---components
+    |   |   |   |   +---fr
+    |   |   |   |   |   \---components
+    |   |   |   |   +---he
+    |   |   |   |   |   \---components
+    |   |   |   |   +---hi
+    |   |   |   |   |   \---components
+    |   |   |   |   +---hr
+    |   |   |   |   |   \---components
+    |   |   |   |   +---hu
+    |   |   |   |   |   \---components
+    |   |   |   |   +---hy
+    |   |   |   |   |   \---components
+    |   |   |   |   +---id
+    |   |   |   |   |   \---components
+    |   |   |   |   +---it
+    |   |   |   |   |   \---components
+    |   |   |   |   +---ja
+    |   |   |   |   |   \---components
+    |   |   |   |   +---ka
+    |   |   |   |   |   \---components
+    |   |   |   |   +---km
+    |   |   |   |   |   \---components
+    |   |   |   |   +---ko
+    |   |   |   |   |   \---components
+    |   |   |   |   +---ku
+    |   |   |   |   |   \---components
+    |   |   |   |   +---lt
+    |   |   |   |   |   \---components
+    |   |   |   |   +---lv
+    |   |   |   |   |   \---components
+    |   |   |   |   +---mn
+    |   |   |   |   |   \---components
+    |   |   |   |   +---ms
+    |   |   |   |   |   \---components
+    |   |   |   |   +---nl
+    |   |   |   |   |   \---components
+    |   |   |   |   +---no
+    |   |   |   |   |   \---components
+    |   |   |   |   +---np
+    |   |   |   |   |   \---components
+    |   |   |   |   +---pl
+    |   |   |   |   |   \---components
+    |   |   |   |   +---pt_BR
+    |   |   |   |   |   \---components
+    |   |   |   |   +---pt_PT
+    |   |   |   |   |   \---components
+    |   |   |   |   +---ro
+    |   |   |   |   |   \---components
+    |   |   |   |   +---ru
+    |   |   |   |   |   \---components
+    |   |   |   |   +---sk
+    |   |   |   |   |   \---components
+    |   |   |   |   +---sq
+    |   |   |   |   |   \---components
+    |   |   |   |   +---sv
+    |   |   |   |   |   \---components
+    |   |   |   |   +---sw
+    |   |   |   |   |   \---components
+    |   |   |   |   +---th
+    |   |   |   |   |   \---components
+    |   |   |   |   +---tr
+    |   |   |   |   |   \---components
+    |   |   |   |   +---uk
+    |   |   |   |   |   \---components
+    |   |   |   |   +---uz
+    |   |   |   |   |   \---components
+    |   |   |   |   +---vi
+    |   |   |   |   |   \---components
+    |   |   |   |   +---zh_CN
+    |   |   |   |   |   \---components
+    |   |   |   |   \---zh_TW
+    |   |   |   |       \---components
+    |   |   |   \---views
+    |   |   |       \---components
+    |   |   |           +---button
+    |   |   |           +---dropdown
+    |   |   |           |   \---list
+    |   |   |           +---grid
+    |   |   |           +---input
+    |   |   |           +---modal
+    |   |   |           +---pagination
+    |   |   |           +---section
+    |   |   |           \---tabs
+    |   |   +---src
+    |   |   |   +---Assets
+    |   |   |   +---Colors
+    |   |   |   +---Commands
+    |   |   |   |   +---Aliases
+    |   |   |   |   \---Concerns
+    |   |   |   +---Components
+    |   |   |   |   \---Contracts
+    |   |   |   +---Concerns
+    |   |   |   +---Contracts
+    |   |   |   +---Enums
+    |   |   |   +---Events
+    |   |   |   +---Exceptions
+    |   |   |   +---Facades
+    |   |   |   +---Icons
+    |   |   |   +---Services
+    |   |   |   \---View
+    |   |   |       \---Components
+    |   |   \---stubs
+    |   |       \---scaffolding
+    |   |           \---resources
+    |   |               +---css
+    |   |               +---js
+    |   |               \---views
+    |   |                   \---components
+    |   |                       \---layouts
+    |   +---tables
+    |   |   +---dist
+    |   |   |   \---components
+    |   |   +---docs
+    |   |   |   +---03-columns
+    |   |   |   \---04-filters
+    |   |   +---resources
+    |   |   |   +---js
+    |   |   |   |   \---components
+    |   |   |   +---lang
+    |   |   |   |   +---ar
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---az
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---bg
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---bn
+    |   |   |   |   +---bs
+    |   |   |   |   +---ca
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---ckb
+    |   |   |   |   +---cs
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---cy
+    |   |   |   |   +---da
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---de
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---el
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---en
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---es
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---eu
+    |   |   |   |   +---fa
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---fi
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---fr
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---he
+    |   |   |   |   +---hi
+    |   |   |   |   +---hr
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---hu
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---hy
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---id
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---it
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---ja
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---ka
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---km
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---ko
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---ku
+    |   |   |   |   +---lt
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---lv
+    |   |   |   |   +---mn
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---ms
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---nl
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---no
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---np
+    |   |   |   |   +---pl
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---pt_BR
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---pt_PT
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---ro
+    |   |   |   |   +---ru
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---sk
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---sl
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---sq
+    |   |   |   |   +---sv
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---sw
+    |   |   |   |   +---th
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---tr
+    |   |   |   |   +---uk
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---uz
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---vi
+    |   |   |   |   |   \---filters
+    |   |   |   |   +---zh_CN
+    |   |   |   |   \---zh_TW
+    |   |   |   \---views
+    |   |   |       +---columns
+    |   |   |       |   +---layout
+    |   |   |       |   \---summaries
+    |   |   |       \---components
+    |   |   |           +---actions
+    |   |   |           +---column-toggle
+    |   |   |           +---columns
+    |   |   |           +---empty-state
+    |   |   |           +---filters
+    |   |   |           +---group
+    |   |   |           +---reorder
+    |   |   |           +---selection
+    |   |   |           \---summary
+    |   |   +---src
+    |   |   |   +---Actions
+    |   |   |   |   +---Concerns
+    |   |   |   |   +---Contracts
+    |   |   |   |   \---Modal
+    |   |   |   |       \---Actions
+    |   |   |   +---Columns
+    |   |   |   |   +---Concerns
+    |   |   |   |   +---Contracts
+    |   |   |   |   +---IconColumn
+    |   |   |   |   +---Layout
+    |   |   |   |   +---Summarizers
+    |   |   |   |   |   \---Concerns
+    |   |   |   |   \---TextColumn
+    |   |   |   +---Commands
+    |   |   |   |   +---Aliases
+    |   |   |   |   \---Concerns
+    |   |   |   +---Concerns
+    |   |   |   +---Contracts
+    |   |   |   +---Enums
+    |   |   |   +---Filters
+    |   |   |   |   +---Concerns
+    |   |   |   |   \---QueryBuilder
+    |   |   |   |       +---Concerns
+    |   |   |   |       +---Constraints
+    |   |   |   |       |   +---BooleanConstraint
+    |   |   |   |       |   |   \---Operators
+    |   |   |   |       |   +---Concerns
+    |   |   |   |       |   +---DateConstraint
+    |   |   |   |       |   |   \---Operators
+    |   |   |   |       |   +---NumberConstraint
+    |   |   |   |       |   |   \---Operators
+    |   |   |   |       |   |       \---Concerns
+    |   |   |   |       |   +---Operators
+    |   |   |   |       |   |   \---Concerns
+    |   |   |   |       |   +---RelationshipConstraint
+    |   |   |   |       |   |   \---Operators
+    |   |   |   |       |   +---SelectConstraint
+    |   |   |   |       |   |   \---Operators
+    |   |   |   |       |   \---TextConstraint
+    |   |   |   |       |       \---Operators
+    |   |   |   |       \---Forms
+    |   |   |   |           \---Components
+    |   |   |   +---Grouping
+    |   |   |   |   \---Concerns
+    |   |   |   +---Table
+    |   |   |   |   \---Concerns
+    |   |   |   +---Testing
+    |   |   |   \---View
+    |   |   \---stubs
+    |   \---widgets
+    |       +---dist
+    |       |   \---components
+    |       |       \---stats-overview
+    |       |           \---stat
+    |       +---docs
+    |       +---resources
+    |       |   +---js
+    |       |   |   \---components
+    |       |   |       \---stats-overview
+    |       |   |           \---stat
+    |       |   \---views
+    |       |       +---components
+    |       |       \---stats-overview-widget
+    |       +---src
+    |       |   +---Commands
+    |       |   |   \---Aliases
+    |       |   +---Concerns
+    |       |   +---StatsOverviewWidget
+    |       |   \---View
+    |       \---stubs
+    +---filp
+    |   \---whoops
+    |       \---src
+    |           \---Whoops
+    |               +---Exception
+    |               +---Handler
+    |               +---Inspector
+    |               +---Resources
+    |               |   +---css
+    |               |   +---js
+    |               |   \---views
+    |               \---Util
+    +---fruitcake
+    |   \---php-cors
+    |       \---src
+    |           \---Exceptions
+    +---graham-campbell
+    |   \---result-type
+    |       \---src
+    +---guzzlehttp
+    |   +---guzzle
+    |   |   \---src
+    |   |       +---Cookie
+    |   |       +---Exception
+    |   |       \---Handler
+    |   +---promises
+    |   |   \---src
+    |   +---psr7
+    |   |   \---src
+    |   |       \---Exception
+    |   \---uri-template
+    |       \---src
+    +---hamcrest
+    |   \---hamcrest-php
+    |       +---generator
+    |       |   \---parts
+    |       \---hamcrest
+    |           \---Hamcrest
+    |               +---Arrays
+    |               +---Collection
+    |               +---Core
+    |               +---Internal
+    |               +---Number
+    |               +---Text
+    |               +---Type
+    |               \---Xml
+    +---kirschbaum-development
+    |   \---eloquent-power-joins
+    |       +---config
+    |       \---src
+    |           \---Mixins
+    +---laravel
+    |   +---agent-detector
+    |   |   \---src
+    |   +---framework
+    |   |   +---config
+    |   |   +---config-stubs
+    |   |   \---src
+    |   |       \---Illuminate
+    |   |           +---Auth
+    |   |           |   +---Access
+    |   |           |   |   \---Events
+    |   |           |   +---Console
+    |   |           |   |   \---stubs
+    |   |           |   |       \---make
+    |   |           |   |           \---views
+    |   |           |   |               \---layouts
+    |   |           |   +---Events
+    |   |           |   +---Listeners
+    |   |           |   +---Middleware
+    |   |           |   +---Notifications
+    |   |           |   \---Passwords
+    |   |           +---Broadcasting
+    |   |           |   \---Broadcasters
+    |   |           +---Bus
+    |   |           |   \---Events
+    |   |           +---Cache
+    |   |           |   +---Console
+    |   |           |   |   \---stubs
+    |   |           |   +---Events
+    |   |           |   +---Limiters
+    |   |           |   \---RateLimiting
+    |   |           +---Collections
+    |   |           |   \---Traits
+    |   |           +---Concurrency
+    |   |           |   \---Console
+    |   |           +---Conditionable
+    |   |           |   \---Traits
+    |   |           +---Config
+    |   |           +---Console
+    |   |           |   +---Attributes
+    |   |           |   +---Concerns
+    |   |           |   +---Contracts
+    |   |           |   +---Events
+    |   |           |   +---resources
+    |   |           |   |   \---views
+    |   |           |   |       \---components
+    |   |           |   +---Scheduling
+    |   |           |   \---View
+    |   |           |       \---Components
+    |   |           |           \---Mutators
+    |   |           +---Container
+    |   |           |   \---Attributes
+    |   |           +---Contracts
+    |   |           |   +---Auth
+    |   |           |   |   +---Access
+    |   |           |   |   \---Middleware
+    |   |           |   +---Broadcasting
+    |   |           |   +---Bus
+    |   |           |   +---Cache
+    |   |           |   +---Concurrency
+    |   |           |   +---Config
+    |   |           |   +---Console
+    |   |           |   +---Container
+    |   |           |   +---Cookie
+    |   |           |   +---Database
+    |   |           |   |   +---Eloquent
+    |   |           |   |   +---Events
+    |   |           |   |   \---Query
+    |   |           |   +---Debug
+    |   |           |   +---Encryption
+    |   |           |   +---Events
+    |   |           |   +---Filesystem
+    |   |           |   +---Foundation
+    |   |           |   +---Hashing
+    |   |           |   +---Http
+    |   |           |   +---JsonSchema
+    |   |           |   +---Log
+    |   |           |   +---Mail
+    |   |           |   +---Notifications
+    |   |           |   +---Pagination
+    |   |           |   +---Pipeline
+    |   |           |   +---Process
+    |   |           |   +---Queue
+    |   |           |   +---Redis
+    |   |           |   +---Routing
+    |   |           |   +---Session
+    |   |           |   |   \---Middleware
+    |   |           |   +---Support
+    |   |           |   +---Translation
+    |   |           |   +---Validation
+    |   |           |   \---View
+    |   |           +---Cookie
+    |   |           |   \---Middleware
+    |   |           +---Database
+    |   |           |   +---Capsule
+    |   |           |   +---Concerns
+    |   |           |   +---Connectors
+    |   |           |   +---Console
+    |   |           |   |   +---Factories
+    |   |           |   |   |   \---stubs
+    |   |           |   |   +---Migrations
+    |   |           |   |   \---Seeds
+    |   |           |   |       \---stubs
+    |   |           |   +---Eloquent
+    |   |           |   |   +---Attributes
+    |   |           |   |   +---Casts
+    |   |           |   |   +---Concerns
+    |   |           |   |   +---Factories
+    |   |           |   |   |   \---Attributes
+    |   |           |   |   \---Relations
+    |   |           |   |       \---Concerns
+    |   |           |   +---Events
+    |   |           |   +---Migrations
+    |   |           |   |   \---stubs
+    |   |           |   +---Query
+    |   |           |   |   +---Grammars
+    |   |           |   |   \---Processors
+    |   |           |   \---Schema
+    |   |           |       \---Grammars
+    |   |           +---Encryption
+    |   |           +---Events
+    |   |           +---Filesystem
+    |   |           +---Foundation
+    |   |           |   +---Auth
+    |   |           |   |   \---Access
+    |   |           |   +---Bootstrap
+    |   |           |   +---Bus
+    |   |           |   +---Cloud
+    |   |           |   +---Concerns
+    |   |           |   +---Configuration
+    |   |           |   +---Console
+    |   |           |   |   \---stubs
+    |   |           |   +---Events
+    |   |           |   +---Exceptions
+    |   |           |   |   +---Renderer
+    |   |           |   |   |   \---Mappers
+    |   |           |   |   +---views
+    |   |           |   |   \---Whoops
+    |   |           |   +---Http
+    |   |           |   |   +---Attributes
+    |   |           |   |   +---Events
+    |   |           |   |   \---Middleware
+    |   |           |   |       \---Concerns
+    |   |           |   +---Providers
+    |   |           |   +---Queue
+    |   |           |   +---resources
+    |   |           |   |   \---exceptions
+    |   |           |   |       \---renderer
+    |   |           |   |           +---components
+    |   |           |   |           |   \---icons
+    |   |           |   |           \---dist
+    |   |           |   +---Routing
+    |   |           |   +---stubs
+    |   |           |   +---Support
+    |   |           |   |   \---Providers
+    |   |           |   +---Testing
+    |   |           |   |   +---Attributes
+    |   |           |   |   +---Concerns
+    |   |           |   |   \---Traits
+    |   |           |   \---Validation
+    |   |           +---Hashing
+    |   |           +---Http
+    |   |           |   +---Client
+    |   |           |   |   +---Concerns
+    |   |           |   |   +---Events
+    |   |           |   |   \---Promises
+    |   |           |   +---Concerns
+    |   |           |   +---Exceptions
+    |   |           |   +---Middleware
+    |   |           |   +---Resources
+    |   |           |   |   +---Attributes
+    |   |           |   |   +---Json
+    |   |           |   |   \---JsonApi
+    |   |           |   |       +---Concerns
+    |   |           |   |       \---Exceptions
+    |   |           |   \---Testing
+    |   |           +---JsonSchema
+    |   |           |   \---Types
+    |   |           +---Log
+    |   |           |   +---Context
+    |   |           |   |   \---Events
+    |   |           |   +---Events
+    |   |           |   \---Formatters
+    |   |           +---Macroable
+    |   |           |   \---Traits
+    |   |           +---Mail
+    |   |           |   +---Events
+    |   |           |   +---Mailables
+    |   |           |   +---resources
+    |   |           |   |   \---views
+    |   |           |   |       +---html
+    |   |           |   |       |   \---themes
+    |   |           |   |       \---text
+    |   |           |   \---Transport
+    |   |           +---Notifications
+    |   |           |   +---Channels
+    |   |           |   +---Console
+    |   |           |   |   \---stubs
+    |   |           |   +---Events
+    |   |           |   +---Messages
+    |   |           |   \---resources
+    |   |           |       \---views
+    |   |           +---Pagination
+    |   |           |   \---resources
+    |   |           |       \---views
+    |   |           +---Pipeline
+    |   |           +---Process
+    |   |           |   \---Exceptions
+    |   |           +---Queue
+    |   |           |   +---Attributes
+    |   |           |   +---Capsule
+    |   |           |   +---Connectors
+    |   |           |   +---Console
+    |   |           |   |   +---Concerns
+    |   |           |   |   \---stubs
+    |   |           |   +---Events
+    |   |           |   +---Failed
+    |   |           |   +---Jobs
+    |   |           |   \---Middleware
+    |   |           +---Redis
+    |   |           |   +---Connections
+    |   |           |   +---Connectors
+    |   |           |   +---Events
+    |   |           |   \---Limiters
+    |   |           +---Reflection
+    |   |           |   \---Traits
+    |   |           +---Routing
+    |   |           |   +---Attributes
+    |   |           |   |   \---Controllers
+    |   |           |   +---Console
+    |   |           |   |   \---stubs
+    |   |           |   +---Contracts
+    |   |           |   +---Controllers
+    |   |           |   +---Events
+    |   |           |   +---Exceptions
+    |   |           |   +---Matching
+    |   |           |   \---Middleware
+    |   |           +---Session
+    |   |           |   +---Console
+    |   |           |   |   \---stubs
+    |   |           |   \---Middleware
+    |   |           +---Support
+    |   |           |   +---Contracts
+    |   |           |   +---Defer
+    |   |           |   +---Exceptions
+    |   |           |   +---Facades
+    |   |           |   +---NodePackageManagers
+    |   |           |   +---Queue
+    |   |           |   |   \---Concerns
+    |   |           |   +---Testing
+    |   |           |   |   \---Fakes
+    |   |           |   \---Traits
+    |   |           +---Testing
+    |   |           |   +---Concerns
+    |   |           |   +---Constraints
+    |   |           |   +---Exceptions
+    |   |           |   \---Fluent
+    |   |           |       \---Concerns
+    |   |           +---Translation
+    |   |           |   \---lang
+    |   |           |       \---en
+    |   |           +---Validation
+    |   |           |   +---Concerns
+    |   |           |   \---Rules
+    |   |           \---View
+    |   |               +---Compilers
+    |   |               |   \---Concerns
+    |   |               +---Concerns
+    |   |               +---Engines
+    |   |               \---Middleware
+    |   +---pail
+    |   |   \---src
+    |   |       +---Console
+    |   |       |   \---Commands
+    |   |       +---Contracts
+    |   |       +---Guards
+    |   |       +---Printers
+    |   |       \---ValueObjects
+    |   |           \---Origin
+    |   +---pao
+    |   |   \---src
+    |   |       +---Contracts
+    |   |       +---Drivers
+    |   |       |   +---Concerns
+    |   |       |   +---Paratest
+    |   |       |   +---Pest
+    |   |       |   +---Phpstan
+    |   |       |   +---Phpunit
+    |   |       |   \---Rector
+    |   |       +---Exceptions
+    |   |       +---Laravel
+    |   |       \---UserFilters
+    |   +---pint
+    |   |   +---builds
+    |   |   \---overrides
+    |   |       \---Runner
+    |   |           \---Parallel
+    |   +---prompts
+    |   |   \---src
+    |   |       +---Concerns
+    |   |       +---Exceptions
+    |   |       +---Output
+    |   |       +---Support
+    |   |       \---Themes
+    |   |           +---Contracts
+    |   |           \---Default
+    |   |               \---Concerns
+    |   +---serializable-closure
+    |   |   \---src
+    |   |       +---Contracts
+    |   |       +---Exceptions
+    |   |       +---Serializers
+    |   |       +---Signers
+    |   |       \---Support
+    |   \---tinker
+    |       +---config
+    |       \---src
+    |           \---Console
+    +---league
+    |   +---commonmark
+    |   |   \---src
+    |   |       +---Delimiter
+    |   |       |   \---Processor
+    |   |       +---Environment
+    |   |       +---Event
+    |   |       +---Exception
+    |   |       +---Extension
+    |   |       |   +---Attributes
+    |   |       |   |   +---Event
+    |   |       |   |   +---Node
+    |   |       |   |   +---Parser
+    |   |       |   |   \---Util
+    |   |       |   +---Autolink
+    |   |       |   +---CommonMark
+    |   |       |   |   +---Delimiter
+    |   |       |   |   |   \---Processor
+    |   |       |   |   +---Node
+    |   |       |   |   |   +---Block
+    |   |       |   |   |   \---Inline
+    |   |       |   |   +---Parser
+    |   |       |   |   |   +---Block
+    |   |       |   |   |   \---Inline
+    |   |       |   |   \---Renderer
+    |   |       |   |       +---Block
+    |   |       |   |       \---Inline
+    |   |       |   +---DefaultAttributes
+    |   |       |   +---DescriptionList
+    |   |       |   |   +---Event
+    |   |       |   |   +---Node
+    |   |       |   |   +---Parser
+    |   |       |   |   \---Renderer
+    |   |       |   +---DisallowedRawHtml
+    |   |       |   +---Embed
+    |   |       |   |   \---Bridge
+    |   |       |   +---ExternalLink
+    |   |       |   +---Footnote
+    |   |       |   |   +---Event
+    |   |       |   |   +---Node
+    |   |       |   |   +---Parser
+    |   |       |   |   \---Renderer
+    |   |       |   +---FrontMatter
+    |   |       |   |   +---Data
+    |   |       |   |   +---Exception
+    |   |       |   |   +---Input
+    |   |       |   |   +---Listener
+    |   |       |   |   \---Output
+    |   |       |   +---HeadingPermalink
+    |   |       |   +---Highlight
+    |   |       |   +---InlinesOnly
+    |   |       |   +---Mention
+    |   |       |   |   \---Generator
+    |   |       |   +---SmartPunct
+    |   |       |   +---Strikethrough
+    |   |       |   +---Table
+    |   |       |   +---TableOfContents
+    |   |       |   |   +---Node
+    |   |       |   |   \---Normalizer
+    |   |       |   \---TaskList
+    |   |       +---Input
+    |   |       +---Node
+    |   |       |   +---Block
+    |   |       |   +---Inline
+    |   |       |   \---Query
+    |   |       +---Normalizer
+    |   |       +---Output
+    |   |       +---Parser
+    |   |       |   +---Block
+    |   |       |   \---Inline
+    |   |       +---Reference
+    |   |       +---Renderer
+    |   |       |   +---Block
+    |   |       |   \---Inline
+    |   |       +---Util
+    |   |       \---Xml
+    |   +---config
+    |   |   \---src
+    |   |       \---Exception
+    |   +---csv
+    |   |   \---src
+    |   |       +---Query
+    |   |       |   +---Constraint
+    |   |       |   \---Ordering
+    |   |       \---Serializer
+    |   +---flysystem
+    |   |   \---src
+    |   |       +---UnixVisibility
+    |   |       \---UrlGeneration
+    |   +---flysystem-local
+    |   +---mime-type-detection
+    |   |   \---src
+    |   +---uri
+    |   |   \---UriTemplate
+    |   \---uri-interfaces
+    |       +---Contracts
+    |       +---Exceptions
+    |       +---Idna
+    |       +---IPv4
+    |       +---IPv6
+    |       \---KeyValuePair
+    +---livewire
+    |   \---livewire
+    |       +---config
+    |       +---dist
+    |       \---src
+    |           +---Attributes
+    |           +---Concerns
+    |           +---Drawer
+    |           +---Exceptions
+    |           +---Features
+    |           |   +---SupportAccessingParent
+    |           |   +---SupportAttributes
+    |           |   +---SupportAutoInjectedAssets
+    |           |   +---SupportBladeAttributes
+    |           |   +---SupportChecksumErrorDebugging
+    |           |   +---SupportCompiledWireKeys
+    |           |   +---SupportComputed
+    |           |   +---SupportConsoleCommands
+    |           |   |   \---Commands
+    |           |   |       \---Upgrade
+    |           |   +---SupportDataBinding
+    |           |   +---SupportDisablingBackButtonCache
+    |           |   +---SupportEntangle
+    |           |   +---SupportErrorResponses
+    |           |   +---SupportEvents
+    |           |   +---SupportFileDownloads
+    |           |   +---SupportFileUploads
+    |           |   +---SupportFormObjects
+    |           |   +---SupportIsolating
+    |           |   +---SupportJsEvaluation
+    |           |   +---SupportLazyLoading
+    |           |   +---SupportLegacyModels
+    |           |   +---SupportLifecycleHooks
+    |           |   +---SupportLocales
+    |           |   +---SupportLockedProperties
+    |           |   +---SupportModels
+    |           |   +---SupportMorphAwareBladeCompilation
+    |           |   +---SupportMultipleRootElementDetection
+    |           |   +---SupportNavigate
+    |           |   |   \---test-views
+    |           |   +---SupportNestedComponentListeners
+    |           |   +---SupportNestingComponents
+    |           |   +---SupportPageComponents
+    |           |   +---SupportPagination
+    |           |   |   \---views
+    |           |   +---SupportPolling
+    |           |   +---SupportQueryString
+    |           |   +---SupportReactiveProps
+    |           |   +---SupportRedirects
+    |           |   +---SupportReleaseTokens
+    |           |   +---SupportScriptsAndAssets
+    |           |   +---SupportSession
+    |           |   +---SupportStdClasses
+    |           |   +---SupportStreaming
+    |           |   +---SupportTeleporting
+    |           |   +---SupportTesting
+    |           |   +---SupportTransitions
+    |           |   +---SupportValidation
+    |           |   +---SupportWireables
+    |           |   +---SupportWireConfirm
+    |           |   +---SupportWireCurrent
+    |           |   |   \---test-views
+    |           |   +---SupportWireIgnore
+    |           |   +---SupportWireLoading
+    |           |   +---SupportWireModelingNestedComponents
+    |           |   +---SupportWireShow
+    |           |   \---SupportWireText
+    |           \---Mechanisms
+    |               +---CompileLivewireTags
+    |               +---ExtendBlade
+    |               +---FrontendAssets
+    |               +---HandleComponents
+    |               |   \---Synthesizers
+    |               +---HandleRequests
+    |               \---PersistentMiddleware
+    +---masterminds
+    |   \---html5
+    |       +---bin
+    |       \---src
+    |           \---HTML5
+    |               +---Parser
+    |               \---Serializer
+    +---mockery
+    |   \---mockery
+    |       +---docs
+    |       |   +---cookbook
+    |       |   +---getting_started
+    |       |   +---mockery
+    |       |   +---reference
+    |       |   \---_static
+    |       \---library
+    |           \---Mockery
+    |               +---Adapter
+    |               |   \---Phpunit
+    |               +---CountValidator
+    |               +---Exception
+    |               +---Generator
+    |               |   \---StringManipulation
+    |               |       \---Pass
+    |               +---Loader
+    |               \---Matcher
+    +---monolog
+    |   \---monolog
+    |       \---src
+    |           \---Monolog
+    |               +---Attribute
+    |               +---Formatter
+    |               +---Handler
+    |               |   +---Curl
+    |               |   +---FingersCrossed
+    |               |   +---Slack
+    |               |   \---SyslogUdp
+    |               +---Processor
+    |               \---Test
+    +---myclabs
+    |   \---deep-copy
+    |       \---src
+    |           \---DeepCopy
+    |               +---Exception
+    |               +---Filter
+    |               |   \---Doctrine
+    |               +---Matcher
+    |               |   \---Doctrine
+    |               +---Reflection
+    |               +---TypeFilter
+    |               |   +---Date
+    |               |   \---Spl
+    |               \---TypeMatcher
+    +---nesbot
+    |   \---carbon
+    |       +---bin
+    |       +---lazy
+    |       |   \---Carbon
+    |       |       \---MessageFormatter
+    |       \---src
+    |           \---Carbon
+    |               +---Cli
+    |               +---Constants
+    |               +---Exceptions
+    |               +---Lang
+    |               +---Laravel
+    |               +---List
+    |               +---MessageFormatter
+    |               +---PHPStan
+    |               \---Traits
+    +---nette
+    |   +---schema
+    |   |   \---src
+    |   |       \---Schema
+    |   |           \---Elements
+    |   \---utils
+    |       \---src
+    |           +---Iterators
+    |           \---Utils
+    +---nikic
+    |   \---php-parser
+    |       +---bin
+    |       \---lib
+    |           \---PhpParser
+    |               +---Builder
+    |               +---Comment
+    |               +---ErrorHandler
+    |               +---Internal
+    |               +---Lexer
+    |               |   \---TokenEmulator
+    |               +---Node
+    |               |   +---Expr
+    |               |   |   +---AssignOp
+    |               |   |   +---BinaryOp
+    |               |   |   \---Cast
+    |               |   +---Name
+    |               |   +---Scalar
+    |               |   |   \---MagicConst
+    |               |   \---Stmt
+    |               |       \---TraitUseAdaptation
+    |               +---NodeVisitor
+    |               +---Parser
+    |               \---PrettyPrinter
+    +---nunomaduro
+    |   +---collision
+    |   |   +---.temp
+    |   |   +---scripts
+    |   |   \---src
+    |   |       +---Adapters
+    |   |       |   +---Laravel
+    |   |       |   |   +---Commands
+    |   |       |   |   \---Exceptions
+    |   |       |   \---Phpunit
+    |   |       |       +---Printers
+    |   |       |       +---Subscribers
+    |   |       |       \---Support
+    |   |       +---Contracts
+    |   |       |   \---Adapters
+    |   |       |       \---Phpunit
+    |   |       +---Exceptions
+    |   |       \---SolutionsRepositories
+    |   \---termwind
+    |       \---src
+    |           +---Actions
+    |           +---Components
+    |           +---Enums
+    |           +---Exceptions
+    |           +---Helpers
+    |           +---Html
+    |           +---Laravel
+    |           +---Repositories
+    |           \---ValueObjects
+    +---openspout
+    |   \---openspout
+    |       \---src
+    |           +---Common
+    |           |   +---Entity
+    |           |   |   +---Cell
+    |           |   |   +---Comment
+    |           |   |   \---Style
+    |           |   +---Exception
+    |           |   \---Helper
+    |           |       \---Escaper
+    |           +---Reader
+    |           |   +---Common
+    |           |   |   +---Creator
+    |           |   |   \---Manager
+    |           |   +---CSV
+    |           |   +---Exception
+    |           |   +---ODS
+    |           |   |   \---Helper
+    |           |   +---Wrapper
+    |           |   \---XLSX
+    |           |       +---Helper
+    |           |       \---Manager
+    |           |           \---SharedStringsCaching
+    |           \---Writer
+    |               +---Common
+    |               |   +---Creator
+    |               |   +---Entity
+    |               |   +---Helper
+    |               |   \---Manager
+    |               |       \---Style
+    |               +---CSV
+    |               +---Exception
+    |               |   \---Border
+    |               +---ODS
+    |               |   +---Helper
+    |               |   \---Manager
+    |               |       \---Style
+    |               \---XLSX
+    |                   +---Entity
+    |                   +---Helper
+    |                   +---Manager
+    |                   |   \---Style
+    |                   \---Options
+    +---phar-io
+    |   +---manifest
+    |   |   +---.github
+    |   |   |   \---workflows
+    |   |   +---src
+    |   |   |   +---exceptions
+    |   |   |   +---values
+    |   |   |   \---xml
+    |   |   \---tools
+    |   |       \---php-cs-fixer.d
+    |   \---version
+    |       \---src
+    |           +---constraints
+    |           \---exceptions
+    +---phpoption
+    |   \---phpoption
+    |       \---src
+    |           \---PhpOption
+    +---phpunit
+    |   +---php-code-coverage
+    |   |   \---src
+    |   |       +---Data
+    |   |       +---Driver
+    |   |       +---Exception
+    |   |       +---Node
+    |   |       +---Report
+    |   |       |   +---Html
+    |   |       |   |   \---Renderer
+    |   |       |   |       \---Template
+    |   |       |   |           +---css
+    |   |       |   |           +---icons
+    |   |       |   |           \---js
+    |   |       |   \---Xml
+    |   |       +---StaticAnalysis
+    |   |       |   +---Value
+    |   |       |   \---Visitor
+    |   |       +---Target
+    |   |       +---TestSize
+    |   |       +---TestStatus
+    |   |       \---Util
+    |   +---php-file-iterator
+    |   |   \---src
+    |   +---php-invoker
+    |   |   \---src
+    |   |       \---exceptions
+    |   +---php-text-template
+    |   |   +---.psalm
+    |   |   \---src
+    |   |       \---exceptions
+    |   +---php-timer
+    |   |   \---src
+    |   |       \---exceptions
+    |   \---phpunit
+    |       +---schema
+    |       \---src
+    |           +---Event
+    |           |   +---Dispatcher
+    |           |   +---Emitter
+    |           |   +---Events
+    |           |   |   +---Application
+    |           |   |   +---Test
+    |           |   |   |   +---HookMethod
+    |           |   |   |   +---Issue
+    |           |   |   |   +---Lifecycle
+    |           |   |   |   +---Outcome
+    |           |   |   |   \---TestDouble
+    |           |   |   +---TestRunner
+    |           |   |   \---TestSuite
+    |           |   +---Exception
+    |           |   \---Value
+    |           |       +---Runtime
+    |           |       +---Telemetry
+    |           |       +---Test
+    |           |       |   +---Issue
+    |           |       |   \---TestData
+    |           |       \---TestSuite
+    |           +---Framework
+    |           |   +---Assert
+    |           |   +---Attributes
+    |           |   +---Constraint
+    |           |   |   +---Boolean
+    |           |   |   +---Cardinality
+    |           |   |   +---Equality
+    |           |   |   +---Exception
+    |           |   |   +---Filesystem
+    |           |   |   +---Math
+    |           |   |   +---Object
+    |           |   |   +---Operator
+    |           |   |   +---String
+    |           |   |   +---Traversable
+    |           |   |   \---Type
+    |           |   +---Exception
+    |           |   |   +---Incomplete
+    |           |   |   +---ObjectEquals
+    |           |   |   \---Skipped
+    |           |   +---MockObject
+    |           |   |   +---Exception
+    |           |   |   +---Generator
+    |           |   |   |   +---Exception
+    |           |   |   |   \---templates
+    |           |   |   \---Runtime
+    |           |   |       +---Api
+    |           |   |       +---Interface
+    |           |   |       +---PropertyHook
+    |           |   |       +---Rule
+    |           |   |       \---Stub
+    |           |   +---TestRunner
+    |           |   |   \---templates
+    |           |   +---TestSize
+    |           |   \---TestStatus
+    |           +---Logging
+    |           |   +---JUnit
+    |           |   |   \---Subscriber
+    |           |   +---OpenTestReporting
+    |           |   |   +---Exception
+    |           |   |   +---schema
+    |           |   |   \---Subscriber
+    |           |   +---TeamCity
+    |           |   |   \---Subscriber
+    |           |   \---TestDox
+    |           |       \---TestResult
+    |           |           \---Subscriber
+    |           +---Metadata
+    |           |   +---Api
+    |           |   +---Exception
+    |           |   +---Parser
+    |           |   \---Version
+    |           +---Runner
+    |           |   +---Baseline
+    |           |   |   +---Exception
+    |           |   |   \---Subscriber
+    |           |   +---DeprecationCollector
+    |           |   |   \---Subscriber
+    |           |   +---Exception
+    |           |   +---Extension
+    |           |   +---Filter
+    |           |   +---GarbageCollection
+    |           |   |   \---Subscriber
+    |           |   +---HookMethod
+    |           |   +---Phpt
+    |           |   |   +---Exception
+    |           |   |   \---templates
+    |           |   +---ResultCache
+    |           |   |   \---Subscriber
+    |           |   \---TestResult
+    |           |       \---Subscriber
+    |           +---TextUI
+    |           |   +---Command
+    |           |   |   \---Commands
+    |           |   +---Configuration
+    |           |   |   +---Cli
+    |           |   |   +---Exception
+    |           |   |   +---Value
+    |           |   |   \---Xml
+    |           |   |       +---CodeCoverage
+    |           |   |       |   \---Report
+    |           |   |       +---Logging
+    |           |   |       |   \---TestDox
+    |           |   |       +---Migration
+    |           |   |       |   \---Migrations
+    |           |   |       +---SchemaDetector
+    |           |   |       \---Validator
+    |           |   +---Exception
+    |           |   \---Output
+    |           |       +---Default
+    |           |       |   \---ProgressPrinter
+    |           |       |       \---Subscriber
+    |           |       +---Printer
+    |           |       \---TestDox
+    |           \---Util
+    |               +---Exception
+    |               +---Http
+    |               +---PHP
+    |               \---Xml
+    +---psr
+    |   +---cache
+    |   |   \---src
+    |   +---clock
+    |   |   \---src
+    |   +---container
+    |   |   \---src
+    |   +---event-dispatcher
+    |   |   \---src
+    |   +---http-client
+    |   |   \---src
+    |   +---http-factory
+    |   |   \---src
+    |   +---http-message
+    |   |   +---docs
+    |   |   \---src
+    |   +---log
+    |   |   \---src
+    |   \---simple-cache
+    |       \---src
+    +---psy
+    |   \---psysh
+    |       +---bin
+    |       \---src
+    |           +---Clipboard
+    |           +---CodeAnalysis
+    |           +---CodeCleaner
+    |           +---Command
+    |           |   +---Config
+    |           |   +---ListCommand
+    |           |   \---TimeitCommand
+    |           +---Completion
+    |           |   +---Refiner
+    |           |   \---Source
+    |           +---Exception
+    |           +---ExecutionLoop
+    |           +---Formatter
+    |           +---Input
+    |           +---Logger
+    |           +---Manual
+    |           +---ManualUpdater
+    |           +---Output
+    |           +---Readline
+    |           |   +---Hoa
+    |           |   |   \---Terminfo
+    |           |   |       +---77
+    |           |   |       \---78
+    |           |   \---Interactive
+    |           |       +---Actions
+    |           |       +---Helper
+    |           |       +---Input
+    |           |       +---Layout
+    |           |       +---Renderer
+    |           |       \---Suggestion
+    |           |           \---Source
+    |           +---Reflection
+    |           +---Shell
+    |           +---Sudo
+    |           +---TabCompletion
+    |           |   +---AutoloadWarmer
+    |           |   \---Matcher
+    |           +---Util
+    |           +---VarDumper
+    |           \---VersionUpdater
+    |               \---Downloader
+    +---ralouphie
+    |   \---getallheaders
+    |       \---src
+    +---ramsey
+    |   +---collection
+    |   |   \---src
+    |   |       +---Exception
+    |   |       +---Map
+    |   |       \---Tool
+    |   \---uuid
+    |       \---src
+    |           +---Builder
+    |           +---Codec
+    |           +---Converter
+    |           |   +---Number
+    |           |   \---Time
+    |           +---Exception
+    |           +---Fields
+    |           +---Generator
+    |           +---Guid
+    |           +---Lazy
+    |           +---Math
+    |           +---Nonstandard
+    |           +---Provider
+    |           |   +---Dce
+    |           |   +---Node
+    |           |   \---Time
+    |           +---Rfc4122
+    |           +---Type
+    |           \---Validator
+    +---ryangjchandler
+    |   \---blade-capture-directive
+    |       \---src
+    +---sebastian
+    |   +---cli-parser
+    |   |   \---src
+    |   |       \---exceptions
+    |   +---comparator
+    |   |   \---src
+    |   |       \---exceptions
+    |   +---complexity
+    |   |   \---src
+    |   |       +---Complexity
+    |   |       +---Exception
+    |   |       \---Visitor
+    |   +---diff
+    |   |   \---src
+    |   |       +---Exception
+    |   |       \---Output
+    |   +---environment
+    |   |   \---src
+    |   +---exporter
+    |   |   \---src
+    |   +---global-state
+    |   |   \---src
+    |   |       \---exceptions
+    |   +---lines-of-code
+    |   |   \---src
+    |   |       \---Exception
+    |   +---object-enumerator
+    |   |   \---src
+    |   +---object-reflector
+    |   |   \---src
+    |   +---recursion-context
+    |   |   \---src
+    |   +---type
+    |   |   \---src
+    |   |       +---exception
+    |   |       \---type
+    |   \---version
+    |       \---src
+    +---spatie
+    |   +---color
+    |   |   \---src
+    |   |       \---Exceptions
+    |   +---invade
+    |   |   \---src
+    |   \---laravel-package-tools
+    |       \---src
+    |           +---Commands
+    |           |   \---Concerns
+    |           +---Concerns
+    |           |   +---Package
+    |           |   \---PackageServiceProvider
+    |           \---Exceptions
+    +---staabm
+    |   \---side-effects-detector
+    |       \---lib
+    +---symfony
+    |   +---clock
+    |   |   +---Resources
+    |   |   \---Test
+    |   +---console
+    |   |   +---Attribute
+    |   |   |   \---Reflection
+    |   |   +---CI
+    |   |   +---Command
+    |   |   +---CommandLoader
+    |   |   +---Completion
+    |   |   |   \---Output
+    |   |   +---DataCollector
+    |   |   +---Debug
+    |   |   +---DependencyInjection
+    |   |   +---Descriptor
+    |   |   +---Event
+    |   |   +---EventListener
+    |   |   +---Exception
+    |   |   +---Formatter
+    |   |   +---Helper
+    |   |   +---Input
+    |   |   +---Interaction
+    |   |   +---Logger
+    |   |   +---Messenger
+    |   |   +---Output
+    |   |   +---Question
+    |   |   +---Resources
+    |   |   |   \---bin
+    |   |   +---SignalRegistry
+    |   |   +---Style
+    |   |   \---Tester
+    |   |       \---Constraint
+    |   +---css-selector
+    |   |   +---Exception
+    |   |   +---Node
+    |   |   +---Parser
+    |   |   |   +---Handler
+    |   |   |   +---Shortcut
+    |   |   |   \---Tokenizer
+    |   |   \---XPath
+    |   |       \---Extension
+    |   +---deprecation-contracts
+    |   +---error-handler
+    |   |   +---Command
+    |   |   +---Error
+    |   |   +---ErrorEnhancer
+    |   |   +---ErrorRenderer
+    |   |   +---Exception
+    |   |   +---Internal
+    |   |   \---Resources
+    |   |       +---assets
+    |   |       |   +---css
+    |   |       |   +---images
+    |   |       |   \---js
+    |   |       +---bin
+    |   |       \---views
+    |   +---event-dispatcher
+    |   |   +---Attribute
+    |   |   +---Debug
+    |   |   \---DependencyInjection
+    |   +---event-dispatcher-contracts
+    |   +---finder
+    |   |   +---Comparator
+    |   |   +---Exception
+    |   |   \---Iterator
+    |   +---html-sanitizer
+    |   |   +---Parser
+    |   |   +---Reference
+    |   |   +---TextSanitizer
+    |   |   \---Visitor
+    |   |       +---AttributeSanitizer
+    |   |       +---Model
+    |   |       \---Node
+    |   +---http-foundation
+    |   |   +---Exception
+    |   |   +---File
+    |   |   |   \---Exception
+    |   |   +---RateLimiter
+    |   |   +---RequestMatcher
+    |   |   +---Session
+    |   |   |   +---Attribute
+    |   |   |   +---Flash
+    |   |   |   \---Storage
+    |   |   |       +---Handler
+    |   |   |       \---Proxy
+    |   |   \---Test
+    |   |       \---Constraint
+    |   +---http-kernel
+    |   |   +---Attribute
+    |   |   +---Bundle
+    |   |   +---CacheClearer
+    |   |   +---CacheWarmer
+    |   |   +---Config
+    |   |   +---Controller
+    |   |   |   \---ArgumentResolver
+    |   |   +---ControllerMetadata
+    |   |   +---DataCollector
+    |   |   +---Debug
+    |   |   +---DependencyInjection
+    |   |   +---Event
+    |   |   +---EventListener
+    |   |   +---Exception
+    |   |   +---Fragment
+    |   |   +---HttpCache
+    |   |   +---Log
+    |   |   +---Profiler
+    |   |   \---Resources
+    |   +---mailer
+    |   |   +---Command
+    |   |   +---DataCollector
+    |   |   +---Event
+    |   |   +---EventListener
+    |   |   +---Exception
+    |   |   +---Header
+    |   |   +---Messenger
+    |   |   +---Test
+    |   |   |   \---Constraint
+    |   |   \---Transport
+    |   |       \---Smtp
+    |   |           +---Auth
+    |   |           \---Stream
+    |   +---mime
+    |   |   +---Crypto
+    |   |   +---DependencyInjection
+    |   |   +---Encoder
+    |   |   +---Exception
+    |   |   +---Header
+    |   |   +---HtmlToTextConverter
+    |   |   +---Part
+    |   |   |   \---Multipart
+    |   |   +---Resources
+    |   |   |   \---bin
+    |   |   \---Test
+    |   |       \---Constraint
+    |   +---polyfill-ctype
+    |   +---polyfill-intl-grapheme
+    |   +---polyfill-intl-idn
+    |   |   \---Resources
+    |   |       \---unidata
+    |   +---polyfill-intl-normalizer
+    |   |   \---Resources
+    |   |       +---stubs
+    |   |       \---unidata
+    |   +---polyfill-mbstring
+    |   |   \---Resources
+    |   |       \---unidata
+    |   +---polyfill-php80
+    |   |   \---Resources
+    |   |       \---stubs
+    |   +---polyfill-php83
+    |   |   \---Resources
+    |   |       \---stubs
+    |   +---polyfill-php84
+    |   |   \---Resources
+    |   |       \---stubs
+    |   |           \---Pdo
+    |   +---polyfill-php85
+    |   |   \---Resources
+    |   |       \---stubs
+    |   |           \---Filter
+    |   +---polyfill-php86
+    |   |   \---Resources
+    |   |       \---stubs
+    |   +---polyfill-uuid
+    |   +---process
+    |   |   +---Exception
+    |   |   +---Messenger
+    |   |   \---Pipes
+    |   +---routing
+    |   |   +---Annotation
+    |   |   +---Attribute
+    |   |   +---DependencyInjection
+    |   |   +---Exception
+    |   |   +---Generator
+    |   |   |   \---Dumper
+    |   |   +---Loader
+    |   |   |   +---Configurator
+    |   |   |   |   \---Traits
+    |   |   |   \---schema
+    |   |   |       \---routing
+    |   |   +---Matcher
+    |   |   |   \---Dumper
+    |   |   \---Requirement
+    |   +---service-contracts
+    |   |   +---Attribute
+    |   |   \---Test
+    |   +---string
+    |   |   +---Exception
+    |   |   +---Inflector
+    |   |   +---Resources
+    |   |   |   +---bin
+    |   |   |   \---data
+    |   |   \---Slugger
+    |   +---translation
+    |   |   +---Catalogue
+    |   |   +---Command
+    |   |   +---DataCollector
+    |   |   +---DependencyInjection
+    |   |   +---Dumper
+    |   |   +---Exception
+    |   |   +---Extractor
+    |   |   |   \---Visitor
+    |   |   +---Formatter
+    |   |   +---Loader
+    |   |   +---Provider
+    |   |   +---Reader
+    |   |   +---Resources
+    |   |   |   +---bin
+    |   |   |   +---data
+    |   |   |   \---schemas
+    |   |   +---Test
+    |   |   +---Util
+    |   |   \---Writer
+    |   +---translation-contracts
+    |   |   \---Test
+    |   +---uid
+    |   |   +---Command
+    |   |   +---Exception
+    |   |   \---Factory
+    |   \---var-dumper
+    |       +---Caster
+    |       +---Cloner
+    |       +---Command
+    |       |   \---Descriptor
+    |       +---Dumper
+    |       |   \---ContextProvider
+    |       +---Exception
+    |       +---Resources
+    |       |   +---bin
+    |       |   +---css
+    |       |   +---functions
+    |       |   \---js
+    |       +---Server
+    |       \---Test
+    +---theseer
+    |   \---tokenizer
+    |       +---src
+    |       \---tools
+    |           \---php-cs-fixer.d
+    +---tijsverkoyen
+    |   \---css-to-inline-styles
+    |       \---src
+    |           \---Css
+    |               +---Property
+    |               \---Rule
+    +---vlucas
+    |   \---phpdotenv
+    |       \---src
+    |           +---Exception
+    |           +---Loader
+    |           +---Parser
+    |           +---Repository
+    |           |   \---Adapter
+    |           +---Store
+    |           |   \---File
+    |           \---Util
+    \---voku
+        \---portable-ascii
+            \---src
+                \---voku
+                    \---helper
+                        \---data
