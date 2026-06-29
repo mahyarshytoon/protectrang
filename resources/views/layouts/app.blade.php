@@ -7,6 +7,8 @@
 
     <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet" />
     <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 </head>
 <body>
 
@@ -17,6 +19,8 @@
     </main>
 
     @include('partials.footer')
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script>
         // ====== منوی همبرگر ======
@@ -33,7 +37,6 @@
                 });
             }
 
-            // بستن منو با کلیک روی لینک‌ها
             document.querySelectorAll('.mobile-menu a').forEach(function(link) {
                 link.addEventListener('click', function() {
                     if (hamburgerBtn) hamburgerBtn.classList.remove('active');
@@ -60,7 +63,53 @@
             document.querySelectorAll('.fade-up').forEach(function(el) {
                 observer.observe(el);
             });
-        });
+
+				// ====== اسلایدر افقی ======
+				if (document.querySelector('.horizontal-swiper')) {
+					new Swiper('.horizontal-swiper', {
+						slidesPerView: 1,
+						spaceBetween: 24,
+						loop: true,
+						centeredSlides: false,
+						pagination: {
+							el: '.horizontal-pagination',
+							clickable: true,
+							dynamicBullets: true,
+						},
+						navigation: {
+							nextEl: '.horizontal-next',
+							prevEl: '.horizontal-prev',
+						},
+						breakpoints: {
+							640: {
+								slidesPerView: 1.2,
+								spaceBetween: 20,
+							},
+							768: {
+								slidesPerView: 2,
+								spaceBetween: 24,
+							},
+							1024: {
+								slidesPerView: 3,
+								spaceBetween: 28,
+							},
+						},
+						// ====== تنظیمات خودکار ======
+						autoplay: {
+							delay: 1000,          // 4 ثانیه (4000 میلی‌ثانیه)
+							disableOnInteraction: false,  // با کلیک دستی متوقف نشه
+							pauseOnMouseEnter: true,      // با هاور کردن متوقف بشه
+						},
+						speed: 1000,               // سرعت حرکت اسلاید (میلی‌ثانیه)
+						grabCursor: true,         // نشانگر دستی برای کشیدن
+						simulateTouch: true,      // قابلیت کشیدن با موس یا انگشت
+						keyboard: {               // کنترل با کیبورد
+							enabled: true,
+							onlyInViewport: true,
+						},
+					});
+				}
+						});
     </script>
 
     @stack('scripts')

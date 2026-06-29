@@ -11,4 +11,5 @@
     <div class="fade-up">@include('home.why')</div>
     <div class="fade-up">@include('home.testimonials-slider', ['testimonials' => $testimonials])</div>
     <div class="fade-up">@include('home.testimonials-form')</div>
+	<div class="fade-up">@include('home.blog', ['posts' => $posts])</div>
 @endsection
